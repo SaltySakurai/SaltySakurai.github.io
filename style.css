@@ -1,53 +1,89 @@
-body{
-  font-family: courier;
-  background-color: peachpuff;
+body {
+  font-family:'Press Start 2P', cursive;
+  background-color: black;
+  font-size: 14px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #c18ff0;
-}
-
-ul1 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-li {
-  float: left;
+nav {
+  text-align: center;
+  background-color: white;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
 }
 
-li a {
-  display: block;
+nav li {
+  display: inline;
+  padding: 100px;
+
+}
+
+nav a {
   color: black;
+  font-size: 18px;
+  font-family:'Press Start 2P', cursive;
+  padding:20px;
+}
+
+nav a:hover {
+  background-color: deepskyblue;
+  padding: 20px;
+
+}
+
+#home {
+  color: white;
+  text-size: 25px;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 100px;
+
+}
+#about {
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
 }
 
-li a:hover {
-  background-color:white;
+img {
+  float: left;
+  margin-right: 15px;
+  height: 200px;
+  width: 200px;
+  padding:5px;
 }
 
-#purplebackground{
-  background-color: #c18ff0;
-}
-.centerimage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  }
+#resume {
+  color: white;
+  padding-left: 0px;
+  padding-top: 75px;
+  left: 0;
 }
 
-.justify{
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
+ol li {
+  padding: 15px;
 }
-.center{
-  text-align: center;
+
+#list {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: deepskyblue;
+}
+
+#subheader {
+  font-weight: bold;
+}
+
+#contact {
+  color: white;
+  padding-left: 0px;
+  padding-top: 20px;
+  left: 0;
+}
+
+a {
+  color: paleturquoise;
+}
+
+ul li {
+  padding: 15px;
 }
